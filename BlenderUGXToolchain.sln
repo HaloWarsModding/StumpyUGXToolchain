@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fbx7.4toFbx6.1", "Fbx7.4toFbx6.1\Fbx7.4toFbx6.1.vcxproj", "{77C69E97-A10D-419E-84C7-8406DCF470F5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "(1)Fbx7toFbx6", "Fbx7.4toFbx6.0\Fbx7.4toFbx6.1.vcxproj", "{77C69E97-A10D-419E-84C7-8406DCF470F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(2)Fbx6toGR2", "Fbx6.0toGR2\(2)Fbx6toGR2.csproj", "{1F01D236-2262-4ABF-A33F-4E362FFA37E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "(3)GR2toUGX", "GR2toUGX\GR2toUGX.vcxproj", "{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +15,44 @@ Global
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Stumpy|x64 = Stumpy|x64
+		Stumpy|x86 = Stumpy|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x64.ActiveCfg = Debug|x64
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x64.Build.0 = Debug|x64
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x86.ActiveCfg = Debug|Win32
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x86.Build.0 = Debug|Win32
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x64.ActiveCfg = Release|x64
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x64.Build.0 = Release|x64
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x86.ActiveCfg = Release|Win32
-		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x86.Build.0 = Release|Win32
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x64.ActiveCfg = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x64.Build.0 = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x86.ActiveCfg = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Debug|x86.Build.0 = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x64.ActiveCfg = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x64.Build.0 = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x86.ActiveCfg = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Release|x86.Build.0 = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Stumpy|x64.ActiveCfg = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Stumpy|x64.Build.0 = Stumpy|x64
+		{77C69E97-A10D-419E-84C7-8406DCF470F5}.Stumpy|x86.ActiveCfg = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Debug|x64.ActiveCfg = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Debug|x64.Build.0 = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Debug|x86.ActiveCfg = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Debug|x86.Build.0 = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Release|x64.ActiveCfg = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Release|x64.Build.0 = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Release|x86.ActiveCfg = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Release|x86.Build.0 = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Stumpy|x64.ActiveCfg = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Stumpy|x64.Build.0 = Stumpy|x64
+		{1F01D236-2262-4ABF-A33F-4E362FFA37E6}.Stumpy|x86.ActiveCfg = Stumpy|x64
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Debug|x64.ActiveCfg = Debug|x64
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Debug|x64.Build.0 = Debug|x64
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Debug|x86.Build.0 = Debug|Win32
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Release|x64.ActiveCfg = Release|x64
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Release|x64.Build.0 = Release|x64
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Release|x86.ActiveCfg = Release|Win32
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Release|x86.Build.0 = Release|Win32
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Stumpy|x64.ActiveCfg = Release|x64
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Stumpy|x64.Build.0 = Release|x64
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Stumpy|x86.ActiveCfg = Release|Win32
+		{B1DE9B6D-5E96-4DF6-BC2F-DA08181294A7}.Stumpy|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
